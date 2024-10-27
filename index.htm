@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Schedule</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Study Schedule</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Activity</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>5:40 - 6:00 PM</td>
+                    <td>Math Preparation</td>
+                    <td>Brief review of math concepts.</td>
+                </tr>
+                <tr>
+                    <td>6:00 - 6:30 PM</td>
+                    <td>Dinner and Break</td>
+                    <td>Take a break to eat and recharge.</td>
+                </tr>
+                <tr>
+                    <td>6:30 - 8:00 PM</td>
+                    <td>English Study</td>
+                    <td>Focus on grammar, vocabulary, or assignments.</td>
+                </tr>
+                <tr>
+                    <td>8:00 - 9:00/10:00 PM</td>
+                    <td>Meeting</td>
+                    <td>Attend the scheduled meeting.</td>
+                </tr>
+                <tr>
+                    <td>9:00 - 10:00 PM</td>
+                    <td>Math Study</td>
+                    <td>Work on math problems.</td>
+                </tr>
+                <tr>
+                    <td>10:00 - 10:30 PM</td>
+                    <td>Database Study</td>
+                    <td>Study database concepts.</td>
+                </tr>
+                <tr>
+                    <td>10:30 - 11:00 PM</td>
+                    <td>Scholarship Research</td>
+                    <td>Research scholarships for technical school students.</td>
+                </tr>
+                <tr>
+                    <td>11:00 PM - 12:00 AM</td>
+                    <td>Wrap-Up Studies</td>
+                    <td>Organize notes and finish remaining tasks.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="timer">
+            <h2>Task Timer</h2>
+            <p id="timer">00:00:00</p>
+            <button onclick="startTimer()">Start Timer</button>
+            <button onclick="resetTimer()">Reset Timer</button>
+        </div>
+
+        <div class="reminder">
+            <h2>Reminders</h2>
+            <p id="reminderMessage">Stay focused and check your schedule!</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
